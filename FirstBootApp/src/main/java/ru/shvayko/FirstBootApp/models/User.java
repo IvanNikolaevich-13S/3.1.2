@@ -30,7 +30,7 @@ public class User {
     @Pattern(regexp = "^[a-zA-ZА-Яа-я]*$", message = "Вы ввели неккоретную фамлию!")
     private String surname;
 
-    public User(String name, String surname, String age) {
+    public User(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }
